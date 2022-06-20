@@ -1,0 +1,1 @@
+<view class="wrap data-v-763b7759"><view class="header data-v-763b7759">{{title}}</view><view class="content data-v-763b7759"><slot></slot></view></view>

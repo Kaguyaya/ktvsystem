@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "index": "/components/home/index",
+    "menu-list": "/components/sehochen-left-menu/menuList"
+  }
+}

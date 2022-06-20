@@ -1,0 +1,315 @@
+@charset "UTF-8";
+/*!
+ * Site:http://www.diygw.com DIYGW可视化设计一键生成源码
+ * Author:邓志锋 280160522
+ */
+/**
+ * 修改common/diygw-ui/index.scss 可以取消相关组件样式
+ * 修改common/diygw-ui/iconfont.scss 如果发布APP可能会图标字体找不到的问题，加上https测试
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+@font-face {
+  font-family: "iconfont";
+  src: url("//at.alicdn.com/t/font_1789197_z1gzlwq7idq.ttf?t=1589441233693") format("truetype");
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.iconshoucang:before {
+  content: "\e667";
+}
+.iconshoucangfill:before {
+  content: "\e6c9";
+}
+.iconjifen:before {
+  content: "\e642";
+}
+.iconradio-button-off:before {
+  content: "\e688";
+}
+.iconradio-button-on:before {
+  content: "\e689";
+}
+.iconhelp:before {
+  content: "\e752";
+}
+.iconwxpay:before {
+  content: "\e611";
+}
+.iconbalance:before {
+  content: "\e619";
+}
+.iconadd-select:before {
+  content: "\e7b0";
+}
+.iconsami-select:before {
+  content: "\e7b1";
+}
+.iconmap:before {
+  content: "\e758";
+}
+.iconsuccess:before {
+  content: "\e767";
+}
+.iconsuccess-fill:before {
+  content: "\e78d";
+}
+.iconiconset0136:before {
+  content: "\e623";
+}
+.iconzan:before {
+  content: "\e640";
+}
+.iconjifenqiandao:before {
+  content: "\e6a6";
+}
+.iconshouyeshouye:before {
+  content: "\e606";
+}
+.icondaohang:before {
+  content: "\e641";
+}
+.iconwodelianxikefu:before {
+  content: "\e671";
+}
+.iconwodexinyuan:before {
+  content: "\e675";
+}
+.iconphone:before {
+  content: "\e6dd";
+}
+.icondingdan:before {
+  content: "\e645";
+}
+.iconliwu:before {
+  content: "\e61c";
+}
+.iconyinpinyinliao:before {
+  content: "\e60d";
+}
+.iconyinpin:before {
+  content: "\e70b";
+}
+.iconwaimaixinxi:before {
+  content: "\e685";
+}
+.iconico:before {
+  content: "\e646";
+}
+.iconwode:before {
+  content: "\e616";
+}
+.icongengduofuwu:before {
+  content: "\e607";
+}
+.iconqucan:before {
+  content: "\e625";
+}
+.iconyou:before {
+  content: "\e618";
+}
+.iconshouhuodizhi:before {
+  content: "\e666";
+}
+.iconshangcheng:before {
+  content: "\e63b";
+}
+.iconadd:before {
+  content: "\e742";
+}
+.iconarrow-right:before {
+  content: "\e743";
+}
+.iconarrow-lift:before {
+  content: "\e744";
+}
+.iconarrow-up:before {
+  content: "\e745";
+}
+.iconclose:before {
+  content: "\e747";
+}
+.iconleftbutton:before {
+  content: "\e755";
+}
+.iconreduce:before {
+  content: "\e75e";
+}
+.iconseleted:before {
+  content: "\e763";
+}
+.iconRightbutton:before {
+  content: "\e765";
+}
+.iconleftbutton-fill:before {
+  content: "\e782";
+}
+.iconRightbutton-fill:before {
+  content: "\e78a";
+}
+.iconarrow-down:before {
+  content: "\e7b2";
+}
+.iconaixin1:before {
+  content: "\e63c";
+}
+.uni-list-item {
+  display: flex;
+  font-size: 16px;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  flex-direction: row;
+}
+.uni-list-item--disabled {
+  opacity: 0.3;
+}
+.uni-list-item--hover {
+  background-color: #f1f1f1;
+}
+.uni-list-item__container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  padding: 12px 15px;
+  padding-left: 15px;
+  flex: 1;
+  overflow: hidden;
+}
+.container--right {
+  padding-right: 0;
+}
+.uni-list--border {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.uni-list--border:after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 1px;
+  content: '';
+  -webkit-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+  background-color: #e5e5e5;
+}
+.uni-list-item__content {
+  display: flex;
+  padding-right: 8px;
+  flex: 1;
+  color: #3b4144;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.uni-list-item__content--center {
+  justify-content: center;
+}
+.uni-list-item__content-title {
+  font-size: 14px;
+  color: #3b4144;
+  overflow: hidden;
+}
+.uni-list-item__content-note {
+  margin-top: 6rpx;
+  color: #999;
+  font-size: 12px;
+  overflow: hidden;
+}
+.uni-list-item__extra {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.uni-list-item__header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.uni-list-item__icon {
+  margin-right: 18rpx;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.uni-list-item__icon-img {
+  display: block;
+  height: 26px;
+  width: 26px;
+  margin-right: 10px;
+}
+.uni-icon-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+.flex--direction {
+  flex-direction: column;
+  align-items: initial;
+}
+.flex--justify {
+  justify-content: initial;
+}
+.uni-list--lg {
+  height: 40px;
+  width: 40px;
+}
+.uni-list--base {
+  height: 26px;
+  width: 26px;
+}
+.uni-list--sm {
+  height: 20px;
+  width: 20px;
+}
+.uni-list-item__extra-text {
+  color: #999;
+  font-size: 12px;
+}
+.uni-ellipsis-1 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.uni-ellipsis-2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+

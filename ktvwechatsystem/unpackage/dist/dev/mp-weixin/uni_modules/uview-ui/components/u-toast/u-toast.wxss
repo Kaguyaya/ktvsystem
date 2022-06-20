@@ -1,0 +1,257 @@
+@charset "UTF-8";
+/*!
+ * Site:http://www.diygw.com DIYGW可视化设计一键生成源码
+ * Author:邓志锋 280160522
+ */
+/**
+ * 修改common/diygw-ui/index.scss 可以取消相关组件样式
+ * 修改common/diygw-ui/iconfont.scss 如果发布APP可能会图标字体找不到的问题，加上https测试
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+@font-face {
+  font-family: "iconfont";
+  src: url("//at.alicdn.com/t/font_1789197_z1gzlwq7idq.ttf?t=1589441233693") format("truetype");
+}
+.iconfont.data-v-0c6e2509 {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.iconshoucang.data-v-0c6e2509:before {
+  content: "\e667";
+}
+.iconshoucangfill.data-v-0c6e2509:before {
+  content: "\e6c9";
+}
+.iconjifen.data-v-0c6e2509:before {
+  content: "\e642";
+}
+.iconradio-button-off.data-v-0c6e2509:before {
+  content: "\e688";
+}
+.iconradio-button-on.data-v-0c6e2509:before {
+  content: "\e689";
+}
+.iconhelp.data-v-0c6e2509:before {
+  content: "\e752";
+}
+.iconwxpay.data-v-0c6e2509:before {
+  content: "\e611";
+}
+.iconbalance.data-v-0c6e2509:before {
+  content: "\e619";
+}
+.iconadd-select.data-v-0c6e2509:before {
+  content: "\e7b0";
+}
+.iconsami-select.data-v-0c6e2509:before {
+  content: "\e7b1";
+}
+.iconmap.data-v-0c6e2509:before {
+  content: "\e758";
+}
+.iconsuccess.data-v-0c6e2509:before {
+  content: "\e767";
+}
+.iconsuccess-fill.data-v-0c6e2509:before {
+  content: "\e78d";
+}
+.iconiconset0136.data-v-0c6e2509:before {
+  content: "\e623";
+}
+.iconzan.data-v-0c6e2509:before {
+  content: "\e640";
+}
+.iconjifenqiandao.data-v-0c6e2509:before {
+  content: "\e6a6";
+}
+.iconshouyeshouye.data-v-0c6e2509:before {
+  content: "\e606";
+}
+.icondaohang.data-v-0c6e2509:before {
+  content: "\e641";
+}
+.iconwodelianxikefu.data-v-0c6e2509:before {
+  content: "\e671";
+}
+.iconwodexinyuan.data-v-0c6e2509:before {
+  content: "\e675";
+}
+.iconphone.data-v-0c6e2509:before {
+  content: "\e6dd";
+}
+.icondingdan.data-v-0c6e2509:before {
+  content: "\e645";
+}
+.iconliwu.data-v-0c6e2509:before {
+  content: "\e61c";
+}
+.iconyinpinyinliao.data-v-0c6e2509:before {
+  content: "\e60d";
+}
+.iconyinpin.data-v-0c6e2509:before {
+  content: "\e70b";
+}
+.iconwaimaixinxi.data-v-0c6e2509:before {
+  content: "\e685";
+}
+.iconico.data-v-0c6e2509:before {
+  content: "\e646";
+}
+.iconwode.data-v-0c6e2509:before {
+  content: "\e616";
+}
+.icongengduofuwu.data-v-0c6e2509:before {
+  content: "\e607";
+}
+.iconqucan.data-v-0c6e2509:before {
+  content: "\e625";
+}
+.iconyou.data-v-0c6e2509:before {
+  content: "\e618";
+}
+.iconshouhuodizhi.data-v-0c6e2509:before {
+  content: "\e666";
+}
+.iconshangcheng.data-v-0c6e2509:before {
+  content: "\e63b";
+}
+.iconadd.data-v-0c6e2509:before {
+  content: "\e742";
+}
+.iconarrow-right.data-v-0c6e2509:before {
+  content: "\e743";
+}
+.iconarrow-lift.data-v-0c6e2509:before {
+  content: "\e744";
+}
+.iconarrow-up.data-v-0c6e2509:before {
+  content: "\e745";
+}
+.iconclose.data-v-0c6e2509:before {
+  content: "\e747";
+}
+.iconleftbutton.data-v-0c6e2509:before {
+  content: "\e755";
+}
+.iconreduce.data-v-0c6e2509:before {
+  content: "\e75e";
+}
+.iconseleted.data-v-0c6e2509:before {
+  content: "\e763";
+}
+.iconRightbutton.data-v-0c6e2509:before {
+  content: "\e765";
+}
+.iconleftbutton-fill.data-v-0c6e2509:before {
+  content: "\e782";
+}
+.iconRightbutton-fill.data-v-0c6e2509:before {
+  content: "\e78a";
+}
+.iconarrow-down.data-v-0c6e2509:before {
+  content: "\e7b2";
+}
+.iconaixin1.data-v-0c6e2509:before {
+  content: "\e63c";
+}
+view.data-v-0c6e2509, scroll-view.data-v-0c6e2509, swiper-item.data-v-0c6e2509 {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  flex-grow: 0;
+  flex-basis: auto;
+  align-items: stretch;
+  align-content: flex-start;
+}
+.u-toast__content.data-v-0c6e2509 {
+  display: flex;
+  flex-direction: row;
+  padding: 12px 20px;
+  border-radius: 4px;
+  background-color: #585858;
+  color: #fff;
+  align-items: center;
+  max-width: 600rpx;
+  position: relative;
+}
+.u-toast__content--loading.data-v-0c6e2509 {
+  flex-direction: column;
+  padding: 20px 20px;
+}
+.u-toast__content__text.data-v-0c6e2509 {
+  color: #fff;
+  font-size: 15px;
+  line-height: 15px;
+}
+.u-toast__content__text--default.data-v-0c6e2509 {
+  color: #fff;
+}
+.u-toast__content__text--error.data-v-0c6e2509 {
+  color: #f56c6c;
+}
+.u-toast__content__text--primary.data-v-0c6e2509 {
+  color: #3c9cff;
+}
+.u-toast__content__text--success.data-v-0c6e2509 {
+  color: #5ac725;
+}
+.u-toast__content__text--warning.data-v-0c6e2509 {
+  color: #f9ae3d;
+}
+.u-type-primary.data-v-0c6e2509 {
+  color: #3c9cff;
+  background-color: #ecf5ff;
+  border-color: #d7eafe;
+  border-width: 1px;
+}
+.u-type-success.data-v-0c6e2509 {
+  color: #5ac725;
+  background-color: #dbf1e1;
+  border-color: #BEF5C8;
+  border-width: 1px;
+}
+.u-type-error.data-v-0c6e2509 {
+  color: #f56c6c;
+  background-color: #fef0f0;
+  border-color: #fde2e2;
+  border-width: 1px;
+}
+.u-type-warning.data-v-0c6e2509 {
+  color: #f9ae3d;
+  background-color: #fdf6ec;
+  border-color: #faecd8;
+  border-width: 1px;
+}
+.u-type-default.data-v-0c6e2509 {
+  color: #fff;
+  background-color: #585858;
+}
+

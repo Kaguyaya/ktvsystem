@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "uni-app",
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "container": "/components/container/index",
+    "ls-swiper": "/components/ls-swiper/index"
+  }
+}

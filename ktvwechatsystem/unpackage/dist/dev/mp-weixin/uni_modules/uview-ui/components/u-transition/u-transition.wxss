@@ -1,0 +1,307 @@
+@charset "UTF-8";
+/*!
+ * Site:http://www.diygw.com DIYGW可视化设计一键生成源码
+ * Author:邓志锋 280160522
+ */
+/**
+ * 修改common/diygw-ui/index.scss 可以取消相关组件样式
+ * 修改common/diygw-ui/iconfont.scss 如果发布APP可能会图标字体找不到的问题，加上https测试
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+@font-face {
+  font-family: "iconfont";
+  src: url("//at.alicdn.com/t/font_1789197_z1gzlwq7idq.ttf?t=1589441233693") format("truetype");
+}
+.iconfont.data-v-8e60ec6e {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.iconshoucang.data-v-8e60ec6e:before {
+  content: "\e667";
+}
+.iconshoucangfill.data-v-8e60ec6e:before {
+  content: "\e6c9";
+}
+.iconjifen.data-v-8e60ec6e:before {
+  content: "\e642";
+}
+.iconradio-button-off.data-v-8e60ec6e:before {
+  content: "\e688";
+}
+.iconradio-button-on.data-v-8e60ec6e:before {
+  content: "\e689";
+}
+.iconhelp.data-v-8e60ec6e:before {
+  content: "\e752";
+}
+.iconwxpay.data-v-8e60ec6e:before {
+  content: "\e611";
+}
+.iconbalance.data-v-8e60ec6e:before {
+  content: "\e619";
+}
+.iconadd-select.data-v-8e60ec6e:before {
+  content: "\e7b0";
+}
+.iconsami-select.data-v-8e60ec6e:before {
+  content: "\e7b1";
+}
+.iconmap.data-v-8e60ec6e:before {
+  content: "\e758";
+}
+.iconsuccess.data-v-8e60ec6e:before {
+  content: "\e767";
+}
+.iconsuccess-fill.data-v-8e60ec6e:before {
+  content: "\e78d";
+}
+.iconiconset0136.data-v-8e60ec6e:before {
+  content: "\e623";
+}
+.iconzan.data-v-8e60ec6e:before {
+  content: "\e640";
+}
+.iconjifenqiandao.data-v-8e60ec6e:before {
+  content: "\e6a6";
+}
+.iconshouyeshouye.data-v-8e60ec6e:before {
+  content: "\e606";
+}
+.icondaohang.data-v-8e60ec6e:before {
+  content: "\e641";
+}
+.iconwodelianxikefu.data-v-8e60ec6e:before {
+  content: "\e671";
+}
+.iconwodexinyuan.data-v-8e60ec6e:before {
+  content: "\e675";
+}
+.iconphone.data-v-8e60ec6e:before {
+  content: "\e6dd";
+}
+.icondingdan.data-v-8e60ec6e:before {
+  content: "\e645";
+}
+.iconliwu.data-v-8e60ec6e:before {
+  content: "\e61c";
+}
+.iconyinpinyinliao.data-v-8e60ec6e:before {
+  content: "\e60d";
+}
+.iconyinpin.data-v-8e60ec6e:before {
+  content: "\e70b";
+}
+.iconwaimaixinxi.data-v-8e60ec6e:before {
+  content: "\e685";
+}
+.iconico.data-v-8e60ec6e:before {
+  content: "\e646";
+}
+.iconwode.data-v-8e60ec6e:before {
+  content: "\e616";
+}
+.icongengduofuwu.data-v-8e60ec6e:before {
+  content: "\e607";
+}
+.iconqucan.data-v-8e60ec6e:before {
+  content: "\e625";
+}
+.iconyou.data-v-8e60ec6e:before {
+  content: "\e618";
+}
+.iconshouhuodizhi.data-v-8e60ec6e:before {
+  content: "\e666";
+}
+.iconshangcheng.data-v-8e60ec6e:before {
+  content: "\e63b";
+}
+.iconadd.data-v-8e60ec6e:before {
+  content: "\e742";
+}
+.iconarrow-right.data-v-8e60ec6e:before {
+  content: "\e743";
+}
+.iconarrow-lift.data-v-8e60ec6e:before {
+  content: "\e744";
+}
+.iconarrow-up.data-v-8e60ec6e:before {
+  content: "\e745";
+}
+.iconclose.data-v-8e60ec6e:before {
+  content: "\e747";
+}
+.iconleftbutton.data-v-8e60ec6e:before {
+  content: "\e755";
+}
+.iconreduce.data-v-8e60ec6e:before {
+  content: "\e75e";
+}
+.iconseleted.data-v-8e60ec6e:before {
+  content: "\e763";
+}
+.iconRightbutton.data-v-8e60ec6e:before {
+  content: "\e765";
+}
+.iconleftbutton-fill.data-v-8e60ec6e:before {
+  content: "\e782";
+}
+.iconRightbutton-fill.data-v-8e60ec6e:before {
+  content: "\e78a";
+}
+.iconarrow-down.data-v-8e60ec6e:before {
+  content: "\e7b2";
+}
+.iconaixin1.data-v-8e60ec6e:before {
+  content: "\e63c";
+}
+view.data-v-8e60ec6e, scroll-view.data-v-8e60ec6e, swiper-item.data-v-8e60ec6e {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  flex-grow: 0;
+  flex-basis: auto;
+  align-items: stretch;
+  align-content: flex-start;
+}
+/**
+ * vue版本动画内置的动画模式有如下：
+ * fade：淡入
+ * zoom：缩放
+ * fade-zoom：缩放淡入
+ * fade-up：上滑淡入
+ * fade-down：下滑淡入
+ * fade-left：左滑淡入
+ * fade-right：右滑淡入
+ * slide-up：上滑进入
+ * slide-down：下滑进入
+ * slide-left：左滑进入
+ * slide-right：右滑进入
+ */
+.u-fade-enter-active.data-v-8e60ec6e,
+.u-fade-leave-active.data-v-8e60ec6e {
+  transition-property: opacity;
+}
+.u-fade-enter.data-v-8e60ec6e,
+.u-fade-leave-to.data-v-8e60ec6e {
+  opacity: 0;
+}
+.u-fade-zoom-enter.data-v-8e60ec6e,
+.u-fade-zoom-leave-to.data-v-8e60ec6e {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+  opacity: 0;
+}
+.u-fade-zoom-enter-active.data-v-8e60ec6e,
+.u-fade-zoom-leave-active.data-v-8e60ec6e {
+  transition-property: opacity, -webkit-transform;
+  transition-property: transform, opacity;
+  transition-property: transform, opacity, -webkit-transform;
+}
+.u-fade-down-enter-active.data-v-8e60ec6e,
+.u-fade-down-leave-active.data-v-8e60ec6e,
+.u-fade-left-enter-active.data-v-8e60ec6e,
+.u-fade-left-leave-active.data-v-8e60ec6e,
+.u-fade-right-enter-active.data-v-8e60ec6e,
+.u-fade-right-leave-active.data-v-8e60ec6e,
+.u-fade-up-enter-active.data-v-8e60ec6e,
+.u-fade-up-leave-active.data-v-8e60ec6e {
+  transition-property: opacity, -webkit-transform;
+  transition-property: opacity, transform;
+  transition-property: opacity, transform, -webkit-transform;
+}
+.u-fade-up-enter.data-v-8e60ec6e,
+.u-fade-up-leave-to.data-v-8e60ec6e {
+  -webkit-transform: translate3d(0, 100%, 0);
+          transform: translate3d(0, 100%, 0);
+  opacity: 0;
+}
+.u-fade-down-enter.data-v-8e60ec6e,
+.u-fade-down-leave-to.data-v-8e60ec6e {
+  -webkit-transform: translate3d(0, -100%, 0);
+          transform: translate3d(0, -100%, 0);
+  opacity: 0;
+}
+.u-fade-left-enter.data-v-8e60ec6e,
+.u-fade-left-leave-to.data-v-8e60ec6e {
+  -webkit-transform: translate3d(-100%, 0, 0);
+          transform: translate3d(-100%, 0, 0);
+  opacity: 0;
+}
+.u-fade-right-enter.data-v-8e60ec6e,
+.u-fade-right-leave-to.data-v-8e60ec6e {
+  -webkit-transform: translate3d(100%, 0, 0);
+          transform: translate3d(100%, 0, 0);
+  opacity: 0;
+}
+.u-slide-down-enter-active.data-v-8e60ec6e,
+.u-slide-down-leave-active.data-v-8e60ec6e,
+.u-slide-left-enter-active.data-v-8e60ec6e,
+.u-slide-left-leave-active.data-v-8e60ec6e,
+.u-slide-right-enter-active.data-v-8e60ec6e,
+.u-slide-right-leave-active.data-v-8e60ec6e,
+.u-slide-up-enter-active.data-v-8e60ec6e,
+.u-slide-up-leave-active.data-v-8e60ec6e {
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+}
+.u-slide-up-enter.data-v-8e60ec6e,
+.u-slide-up-leave-to.data-v-8e60ec6e {
+  -webkit-transform: translate3d(0, 100%, 0);
+          transform: translate3d(0, 100%, 0);
+}
+.u-slide-down-enter.data-v-8e60ec6e,
+.u-slide-down-leave-to.data-v-8e60ec6e {
+  -webkit-transform: translate3d(0, -100%, 0);
+          transform: translate3d(0, -100%, 0);
+}
+.u-slide-left-enter.data-v-8e60ec6e,
+.u-slide-left-leave-to.data-v-8e60ec6e {
+  -webkit-transform: translate3d(-100%, 0, 0);
+          transform: translate3d(-100%, 0, 0);
+}
+.u-slide-right-enter.data-v-8e60ec6e,
+.u-slide-right-leave-to.data-v-8e60ec6e {
+  -webkit-transform: translate3d(100%, 0, 0);
+          transform: translate3d(100%, 0, 0);
+}
+.u-zoom-enter-active.data-v-8e60ec6e,
+.u-zoom-leave-active.data-v-8e60ec6e {
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+}
+.u-zoom-enter.data-v-8e60ec6e,
+.u-zoom-leave-to.data-v-8e60ec6e {
+  -webkit-transform: scale(0.95);
+          transform: scale(0.95);
+}
+

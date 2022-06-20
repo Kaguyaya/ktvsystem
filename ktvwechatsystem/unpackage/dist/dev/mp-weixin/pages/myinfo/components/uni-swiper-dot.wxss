@@ -1,0 +1,77 @@
+
+.uni-swiper__warp.data-v-44491be4 {
+
+		display: flex;
+
+		flex: 1;
+		flex-direction: column;
+		position: relative;
+		overflow: hidden;
+}
+.uni-swiper__dots-box.data-v-44491be4 {
+		position: absolute;
+		bottom: 10px;
+		left: 0;
+		right: 0;
+
+		display: flex;
+
+		flex: 1;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+}
+.uni-swiper__dots-item.data-v-44491be4 {
+		width: 8px;
+		border-radius: 100px;
+		margin-left: 6px;
+		background-color: rgba(0, 0, 0, 0.4);
+		/* transition: width 0.2s linear;  不要取消注释，不然会不能变色
+ */
+}
+.uni-swiper__dots-item.data-v-44491be4:first-child {
+		margin: 0;
+}
+.uni-swiper__dots-default.data-v-44491be4 {
+		border-radius: 100px;
+}
+.uni-swiper__dots-long.data-v-44491be4 {
+		border-radius: 50px;
+}
+.uni-swiper__dots-bar.data-v-44491be4 {
+		border-radius: 50px;
+}
+.uni-swiper__dots-nav.data-v-44491be4 {
+		bottom: 0px;
+		height: 40px;
+
+		display: flex;
+
+		flex: 1;
+		flex-direction: row;
+		justify-content: flex-start;
+		align-items: center;
+		background-color: rgba(0, 0, 0, 0.2);
+}
+.uni-swiper__dots-nav-item.data-v-44491be4 {
+		/* overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap; */
+		font-size: 28rpx;
+		color: #fff;
+		margin: 0 15px;
+}
+.uni-swiper__dots-indexes.data-v-44491be4 {
+
+		display: flex;
+
+		/* flex: 1;
+ */
+		justify-content: center;
+		align-items: center;
+}
+.uni-swiper__dots-indexes-text.data-v-44491be4 {
+		color: #fff;
+		font-size: 24rpx;
+}
+

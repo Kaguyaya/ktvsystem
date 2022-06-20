@@ -1,0 +1,308 @@
+@charset "UTF-8";
+/*!
+ * Site:http://www.diygw.com DIYGW可视化设计一键生成源码
+ * Author:邓志锋 280160522
+ */
+/**
+ * 修改common/diygw-ui/index.scss 可以取消相关组件样式
+ * 修改common/diygw-ui/iconfont.scss 如果发布APP可能会图标字体找不到的问题，加上https测试
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+@font-face {
+  font-family: "iconfont";
+  src: url("//at.alicdn.com/t/font_1789197_z1gzlwq7idq.ttf?t=1589441233693") format("truetype");
+}
+.iconfont.data-v-c49b56f4 {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.iconshoucang.data-v-c49b56f4:before {
+  content: "\e667";
+}
+.iconshoucangfill.data-v-c49b56f4:before {
+  content: "\e6c9";
+}
+.iconjifen.data-v-c49b56f4:before {
+  content: "\e642";
+}
+.iconradio-button-off.data-v-c49b56f4:before {
+  content: "\e688";
+}
+.iconradio-button-on.data-v-c49b56f4:before {
+  content: "\e689";
+}
+.iconhelp.data-v-c49b56f4:before {
+  content: "\e752";
+}
+.iconwxpay.data-v-c49b56f4:before {
+  content: "\e611";
+}
+.iconbalance.data-v-c49b56f4:before {
+  content: "\e619";
+}
+.iconadd-select.data-v-c49b56f4:before {
+  content: "\e7b0";
+}
+.iconsami-select.data-v-c49b56f4:before {
+  content: "\e7b1";
+}
+.iconmap.data-v-c49b56f4:before {
+  content: "\e758";
+}
+.iconsuccess.data-v-c49b56f4:before {
+  content: "\e767";
+}
+.iconsuccess-fill.data-v-c49b56f4:before {
+  content: "\e78d";
+}
+.iconiconset0136.data-v-c49b56f4:before {
+  content: "\e623";
+}
+.iconzan.data-v-c49b56f4:before {
+  content: "\e640";
+}
+.iconjifenqiandao.data-v-c49b56f4:before {
+  content: "\e6a6";
+}
+.iconshouyeshouye.data-v-c49b56f4:before {
+  content: "\e606";
+}
+.icondaohang.data-v-c49b56f4:before {
+  content: "\e641";
+}
+.iconwodelianxikefu.data-v-c49b56f4:before {
+  content: "\e671";
+}
+.iconwodexinyuan.data-v-c49b56f4:before {
+  content: "\e675";
+}
+.iconphone.data-v-c49b56f4:before {
+  content: "\e6dd";
+}
+.icondingdan.data-v-c49b56f4:before {
+  content: "\e645";
+}
+.iconliwu.data-v-c49b56f4:before {
+  content: "\e61c";
+}
+.iconyinpinyinliao.data-v-c49b56f4:before {
+  content: "\e60d";
+}
+.iconyinpin.data-v-c49b56f4:before {
+  content: "\e70b";
+}
+.iconwaimaixinxi.data-v-c49b56f4:before {
+  content: "\e685";
+}
+.iconico.data-v-c49b56f4:before {
+  content: "\e646";
+}
+.iconwode.data-v-c49b56f4:before {
+  content: "\e616";
+}
+.icongengduofuwu.data-v-c49b56f4:before {
+  content: "\e607";
+}
+.iconqucan.data-v-c49b56f4:before {
+  content: "\e625";
+}
+.iconyou.data-v-c49b56f4:before {
+  content: "\e618";
+}
+.iconshouhuodizhi.data-v-c49b56f4:before {
+  content: "\e666";
+}
+.iconshangcheng.data-v-c49b56f4:before {
+  content: "\e63b";
+}
+.iconadd.data-v-c49b56f4:before {
+  content: "\e742";
+}
+.iconarrow-right.data-v-c49b56f4:before {
+  content: "\e743";
+}
+.iconarrow-lift.data-v-c49b56f4:before {
+  content: "\e744";
+}
+.iconarrow-up.data-v-c49b56f4:before {
+  content: "\e745";
+}
+.iconclose.data-v-c49b56f4:before {
+  content: "\e747";
+}
+.iconleftbutton.data-v-c49b56f4:before {
+  content: "\e755";
+}
+.iconreduce.data-v-c49b56f4:before {
+  content: "\e75e";
+}
+.iconseleted.data-v-c49b56f4:before {
+  content: "\e763";
+}
+.iconRightbutton.data-v-c49b56f4:before {
+  content: "\e765";
+}
+.iconleftbutton-fill.data-v-c49b56f4:before {
+  content: "\e782";
+}
+.iconRightbutton-fill.data-v-c49b56f4:before {
+  content: "\e78a";
+}
+.iconarrow-down.data-v-c49b56f4:before {
+  content: "\e7b2";
+}
+.iconaixin1.data-v-c49b56f4:before {
+  content: "\e63c";
+}
+.content.data-v-c49b56f4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.text-area.data-v-c49b56f4 {
+  display: flex;
+  justify-content: center;
+}
+.title.data-v-c49b56f4 {
+  font-size: 36rpx;
+  color: #8f8f94;
+}
+.btn-hover.data-v-c49b56f4 {
+  background: #f2f2f2 !important;
+}
+.user .user-wrap.data-v-c49b56f4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vw;
+  padding: 30rpx;
+  z-index: 9;
+  border-radius: 0 0 20% 20%;
+  background: url("https://handsel.oss-cn-shenzhen.aliyuncs.com/1588938371592.jpg") no-repeat;
+  background-size: cover;
+}
+.user .user-wrap .setting.data-v-c49b56f4 {
+  color: #fff;
+  position: absolute;
+  top: 60rpx;
+  left: 60rpx;
+  font-size: 50rpx;
+}
+.user .user-wrap .info.data-v-c49b56f4 {
+  position: absolute;
+  text-align: center;
+}
+.user .user-wrap .info .avatar.data-v-c49b56f4 {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+}
+.user .user-wrap .info .nickname.data-v-c49b56f4 {
+  color: #fff;
+  font-size: 28rpx;
+}
+.user .order-status.data-v-c49b56f4 {
+  padding: 0 20rpx;
+  margin-top: -10vw;
+}
+.user .order-status .status-wrap.data-v-c49b56f4 {
+  border-radius: 25rpx;
+  overflow: hidden;
+}
+.user .order-status .status-wrap .status-list.data-v-c49b56f4 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: #fff;
+  padding-top: 30rpx;
+  padding-bottom: 30rpx;
+}
+.user .order-status .status-wrap .status-list .status-item.data-v-c49b56f4 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.user .order-status .status-wrap .status-list .status-item .item-icon.data-v-c49b56f4 {
+  line-height: 1;
+  font-size: 65rpx;
+  color: #bbb;
+}
+.user .order-status .status-wrap .status-list .status-item .item-text.data-v-c49b56f4 {
+  font-size: 28rpx;
+  color: #666;
+  margin-top: 5rpx;
+}
+.user .com-item.data-v-c49b56f4 {
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+  margin-top: 20rpx;
+}
+.user .com-item .com-wrap.data-v-c49b56f4 {
+  border-radius: 25rpx;
+  overflow: hidden;
+}
+.user .cell.data-v-c49b56f4 {
+  height: 80rpx;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  border-bottom: 1px solid #f8f8f8;
+}
+.user .cell.data-v-c49b56f4:active {
+  background: #f2f2f2;
+}
+.user .cell.data-v-c49b56f4:last-child {
+  border-bottom: none !important;
+}
+.user .cell .cell-left.data-v-c49b56f4 {
+  display: flex;
+  align-items: center;
+}
+.user .cell .cell-left .cell-icon.data-v-c49b56f4 {
+  width: 50rpx;
+  height: 50rpx;
+}
+.user .cell .cell-left .cell-text.data-v-c49b56f4 {
+  color: #666;
+  font-size: 28rpx;
+  margin-left: 20rpx;
+}
+.user .cell .iconfont.data-v-c49b56f4 {
+  font-size: 40rpx;
+  color: #999;
+}
+

@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "cartcontrol": "/components/cartcontrol",
+    "shopcart": "/components/shopcart"
+  }
+}
