@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ktvadmin/ktvadmin.iml" filepath="$PROJECT_DIR$/ktvadmin/ktvadmin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ktvio/ktvio.iml" filepath="$PROJECT_DIR$/ktvio/ktvio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xxl-job-excute/xxl-job-excute.iml" filepath="$PROJECT_DIR$/xxl-job-excute/xxl-job-excute.iml" />
+    </modules>
+  </component>
+</project>

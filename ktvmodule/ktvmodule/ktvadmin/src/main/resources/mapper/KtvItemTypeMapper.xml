@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.kaguya.ktvadmin.mapper.KtvItemTypeMapper">
+
+    <resultMap id="BaseResultMap" type="com.kaguya.ktvadmin.pojo.KtvItemType">
+        <id column="type_id" property="typeId"></id>
+        <result column="type_name" property="typeName"></result>
+    </resultMap>
+    <resultMap id="Menus" type="com.kaguya.ktvadmin.pojo.KtvItemType" extends="BaseResultMap">
+        <collection property="ktvItems" ofType="com.kaguya.ktvadmin.pojo.KtvItem">
+            <id column="item_id" property="itemId"></id>
+            <result column="item_name" property="itemName"></result>
+            <result column="item_price" property="itemPrice"></result>
+            <result column="item_endtime" property="itemEndtime"></result>
+            <result column="item_createtime" property="itemCreatetime"></result>
+            <result column="item_count" property="itemCount"></result>
+            <result column="item_updatetime" property="itemUpdatetime"></result>
+            <result column="item_state" property="itemState"></result>
+            <result column="item_unit" property="itemUnit"></result>
+            <result column="item_typeid" property="itemTypeid"></result>
+            <result column="item_consume" property="itemConsume"></result>
+            <result column="item_img" property="itemImg"></result>
+        </collection>
+    </resultMap>
+    <select id="getItemAndType" resultMap="Menus">
+        SELECT k1.*,k2.* FROM ktv_item_type k1,ktv_item k2 WHERE k1.type_id=k2.item_typeid AND k2.item_state=1
+    </select>
+</mapper>

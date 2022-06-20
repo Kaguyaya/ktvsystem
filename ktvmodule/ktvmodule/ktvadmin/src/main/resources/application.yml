@@ -1,0 +1,51 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/ktv
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  redis:
+    host: 47.102.141.182
+    port: 4396
+    password: Vbhgnmccw4672
+    database: 0
+    timeout: 1000ms
+    jedis:
+      pool:
+        max-active: 8
+        max-wait: -1ms
+        max-idle: 8
+        min-idle: 0
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 500MB
+      max-request-size: 500MB
+      file-size-threshold: 500MB
+
+minio:
+  url: http://192.168.146.141:9000
+  accessKey: admin
+  secretKey: password
+  bucketName: ktv
+songs:
+  songTypes: "摇滚,流行,说唱,儿歌,纯音乐"
+  songLanguage: {[汉语]: chinese,[日语]: japanese,[英语]: english,[韩语]: korean,[俄罗斯语]: russian,[德语]: german,[法语]: french}
+wx:
+  appid:
+  secret:
+
+mybatis-plus:
+  mapper-locations: classpath:/mapper/**.xml
+  type-aliases-package: com.kaguya.ktvadmin.pojo
